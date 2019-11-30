@@ -1,3 +1,4 @@
+require "pry"
 # Examples inspired by David Foster Wallace's # (2/21/1962 to 9/12/2008) _Infinite Jest_
 
 ENNET_HOUSE = [
@@ -45,5 +46,6 @@ end
 def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
+  binding.pry
  matrix[row][column] = new_value
 end
