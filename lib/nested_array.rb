@@ -45,5 +45,5 @@ end
 def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
- matrix.insert(2, new_value)
+ matrix
 end
